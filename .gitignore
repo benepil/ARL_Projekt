@@ -1,0 +1,19 @@
+# exclude PyCharm files
+.idea/
+# exclude deprecated files
+dep/
+# exclude scrap files
+scrap/
+# exclude pycache
+__pycache__/
+# exclude unity temp files
+environment/sources/Temp/
+environment/sources/Logs/
+# exclude python virtual environment
+interpreter
+# exclude the experiment results
+results
+# include the IO access lock
+!results/access.lock
+# exclude plots created by hand
+manual_plotting/
